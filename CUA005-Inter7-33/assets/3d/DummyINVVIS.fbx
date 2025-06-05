@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2025
 		Month: 5
-		Day: 28
+		Day: 30
 		Hour: 14
-		Minute: 2
-		Second: 54
-		Millisecond: 185
+		Minute: 16
+		Second: 38
+		Millisecond: 560
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.3.4"
 	OtherFlags:  {
@@ -31,8 +31,8 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "C:\GitHub\Unity6\WKT001-PropsLibrary_HD\PropsLibrary_HD\Assets\33sy75ta_DummyINVVIS.fbx"
-			P: "SrcDocumentUrl", "KString", "Url", "", "C:\GitHub\Unity6\WKT001-PropsLibrary_HD\PropsLibrary_HD\Assets\33sy75ta_DummyINVVIS.fbx"
+			P: "DocumentUrl", "KString", "Url", "", "C:\GitHub\Unity6\WKT001-PropsLibrary_HD\PropsLibrary_HD\Assets\i8r48898_DummyINVVIS.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "C:\GitHub\Unity6\WKT001-PropsLibrary_HD\PropsLibrary_HD\Assets\i8r48898_DummyINVVIS.fbx"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", ""
 			P: "Original|ApplicationName", "KString", "", "", "Unity FBX Exporter"
@@ -78,7 +78,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2571096228688, "Scene", "Scene" {
+	Document: 2108320855360, "Scene", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -98,12 +98,12 @@ References:  {
 
 Definitions:  {
 	Version: 100
-	Count: 6
+	Count: 8
 	ObjectType: "GlobalSettings" {
 		Count: 1
 	}
 	ObjectType: "Model" {
-		Count: 3
+		Count: 5
 		PropertyTemplate: "FbxNode" {
 			Properties70:  {
 				P: "QuaternionInterpolate", "enum", "", "",0
@@ -223,7 +223,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2548828000448, "Geometry::Scene", "Mesh" {
+	Geometry: 2112060789696, "Geometry::Scene", "Mesh" {
 		Vertices: *24 {
 			a: -50,-50,50,50,-50,50,-50,50,50,50,50,50,-50,50,-50,50,50,-50,-50,-50,-50,50,-50,-50
 		} 
@@ -332,7 +332,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2561406150432, "Model::DummyINVVIS", "Null" {
+	Model: 2090008866272, "Model::DummyINVVIS", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -343,7 +343,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2561406152432, "Model::Cube", "Mesh" {
+	Model: 2086579771712, "Model::Cube", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -358,7 +358,7 @@ Objects:  {
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Model: 2561406154432, "Model::Cube__1_", "Mesh" {
+	Model: 2109419654624, "Model::Cube__1_", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -373,7 +373,37 @@ Objects:  {
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Material: 2541962474208, "Material::DefaultHDMaterial", "" {
+	Model: 2087742455616, "Model::Cube__2_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",7685.50033569336,557.079982757568,1133.59003067017
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-11.5779809951782,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",17.2836742401123,12.9151134490967,4.77636337280273
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 2107193897568, "Model::Cube__3_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",6865.46020507812,553.970003128052,5290.15007019043
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-15.783860206604,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",14.5863046646118,12.8534173965454,4.96407413482666
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Material: 2094735357024, "Material::DefaultHDMaterial", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -395,25 +425,43 @@ Objects:  {
 Connections:  {
 	
 	;Model::DummyINVVIS, Model::RootNode
-	C: "OO",2561406150432,0
+	C: "OO",2090008866272,0
 	
 	;Model::Cube, Model::DummyINVVIS
-	C: "OO",2561406152432,2561406150432
+	C: "OO",2086579771712,2090008866272
 	
 	;Model::Cube__1_, Model::DummyINVVIS
-	C: "OO",2561406154432,2561406150432
+	C: "OO",2109419654624,2090008866272
+	
+	;Model::Cube__2_, Model::DummyINVVIS
+	C: "OO",2087742455616,2090008866272
+	
+	;Model::Cube__3_, Model::DummyINVVIS
+	C: "OO",2107193897568,2090008866272
 	
 	;Material::DefaultHDMaterial, Model::Cube
-	C: "OO",2541962474208,2561406152432
+	C: "OO",2094735357024,2086579771712
 	
 	;Geometry::Scene, Model::Cube
-	C: "OO",2548828000448,2561406152432
+	C: "OO",2112060789696,2086579771712
 	
 	;Material::DefaultHDMaterial, Model::Cube__1_
-	C: "OO",2541962474208,2561406154432
+	C: "OO",2094735357024,2109419654624
 	
 	;Geometry::Scene, Model::Cube__1_
-	C: "OO",2548828000448,2561406154432
+	C: "OO",2112060789696,2109419654624
+	
+	;Material::DefaultHDMaterial, Model::Cube__2_
+	C: "OO",2094735357024,2087742455616
+	
+	;Geometry::Scene, Model::Cube__2_
+	C: "OO",2112060789696,2087742455616
+	
+	;Material::DefaultHDMaterial, Model::Cube__3_
+	C: "OO",2094735357024,2107193897568
+	
+	;Geometry::Scene, Model::Cube__3_
+	C: "OO",2112060789696,2107193897568
 }
 ;Takes section
 ;----------------------------------------------------
